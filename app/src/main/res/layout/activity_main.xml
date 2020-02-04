@@ -49,7 +49,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button"
+                    android:id="@+id/button_blowout"
                     android:layout_width="119dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -71,14 +71,14 @@
                 android:orientation="vertical">
 
                 <Switch
-                    android:id="@+id/frosting"
+                    android:id="@+id/switch_frosting"
                     android:layout_width="181dp"
                     android:layout_height="48dp"
                     android:checked="true"
                     android:text="Frosting" />
 
                 <Switch
-                    android:id="@+id/switch1"
+                    android:id="@+id/switch_candles"
                     android:layout_width="181dp"
                     android:layout_height="46dp"
                     android:checked="true"
@@ -104,7 +104,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="4"
-                    android:max="5"
+                    android:max="6"
                     android:progress="2" />
             </LinearLayout>
 
